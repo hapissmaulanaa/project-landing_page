@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.btn-color-theme{
+    color: white !important;
+    background-color: #5800FF;
+}
+
+.text-theme{
+    color: #5800FF;
+}
+
+a:hover{
+    color: #5800FF;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.btn-outline-theme{
+    border: 1px solid #5800FF;
+    color: #5800FF !important;
+}
+
+.btn-outline-theme:hover{
+    background-color: #5800FF;
+    border-color: #5800FF;
+    color: white !important;
+}
+
+.navs{
+    padding-left: 20px;
+}
+
+.navbar .navbar-nav li{
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.outline-theme{
+    border: 1px solid #5800FF;
+    color: #5800FF !important;
+}
+
+@media(max-width:576px){
+    .navbar-collapse{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav{
+        margin-top: 10px;
+    }
+
+    .hero img{
+        width: 350px;
+        margin-top: 10px;
+    }
+    .card{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .card img{
+        width: 350px;
+        margin-top: 10px;
+    }
+}
